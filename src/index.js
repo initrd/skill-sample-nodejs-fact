@@ -9,9 +9,9 @@ var Alexa = require('alexa-sdk');
 //Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 var APP_ID = undefined;
 
-var SKILL_NAME = "Space Facts";
+var SKILL_NAME = "Mars Oribter Mission Facts";
 var GET_FACT_MESSAGE = "Here's your fact: ";
-var HELP_MESSAGE = "You can say tell me a space fact, or, you can say exit... What can I help you with?";
+var HELP_MESSAGE = "You can say tell me a mars orbiter mission fact, or, you can say exit... What can I help you with?";
 var HELP_REPROMPT = "What can I help you with?";
 var STOP_MESSAGE = "Goodbye!";
 
@@ -19,19 +19,21 @@ var STOP_MESSAGE = "Goodbye!";
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
 //=========================================================================================================================================
 var data = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+  "Mars Orbiter Mission became India’s first interplanetary mission to the planet mars. Mars Orbiter Mission also called Mangalyaan."
+  "The Mars Orbiter Mission, also called Mangalyaan is a space probe orbiting Mars since 24 September 2014."
+  "Mangalyaan translates to Mars craft in Sanskrit."
+  "The total cost of the mission was approximately $73 million, making it the least-expensive Mars mission to date."
+  "India became first country in all over the world to insert a spacecraft into the Martian orbit in its first attempt."
+  "The Mars Orbiter Mission developed and deployed in just 15 months."
+  "Only 4 countries have been successful in their Martian Missions."
+  "The Mars Orbiter Mission will also help to search Mars for Methane which is a key chemical in life on the Earth."
+  "India also became Asia’s first country with the spacecraft in the red planet’s orbit."
+  "Only 21 missions to Mars have been successful out of 51 missions by different countries."
+  "It takes 14 minutes for a signal from Earth to reach Mars!"
+  "The Mars mission is helping Indian kids become more interested in Space Science."
+  "The Mars Orbiter Mission is meant to test India's ability to place a craft in Martian orbit and technologies required for a future interplanetary mission."
+  "Five solar-powered instruments aboard Mangalyaan will gather data to help determine how Martian weather systems work and what happened to the water that is believed to have once existed on the planet in large quantities."
+  "After completing the 666 million km journey in more than 10 months, the spacecraft has been studying the red planet's surface and scanning its atmosphere."
 ];
 
 //=========================================================================================================================================

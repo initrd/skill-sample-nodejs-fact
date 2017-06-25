@@ -14,21 +14,21 @@
     },
     {
       "name": "GetNewFactIntent",
-      "samples": [
-        "a fact",
-        "a space fact",
-        "tell me a fact",
-        "tell me a space fact",
-        "give me a fact",
-        "give me a space fact",
-        "tell me trivia",
-        "tell me a space trivia",
-        "give me trivia",
-        "give me a space trivia",
-        "give me some information",
-        "give me some space information",
-        "tell me something",
-        "give me something"
+      "samples": [",
+        "mars orbiter mission fact",
+        "mom fact",
+        "mars fact",
+        "mangalyaan fact",
+        "give me a mars orbiter mission fact",
+        "tell me a mars orbiter mission fact",
+        "give me a mars mission fact",
+        "tell me a mars mission fact",
+        "give me a mom fact",
+        "tell me a mom fact",
+        "give me a mangalyaan fact",
+        "tell me a mangalyaan fact",
+        "give me an Indian space fact",
+        "tell me an Indian space fact"
       ],
       "slots": []
     }
